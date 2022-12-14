@@ -1,0 +1,26 @@
+import numpy as np
+list=[1,2,3,4,5,6,7,8,9,10,10,10,11,12,13,14,15,16,17,18,19,20]
+list
+def get_mean(my_data):
+    return sum(my_data)/(len(my_data)*1.0)
+get_mean(list)
+np.mean(list)
+
+my_np_list =np.asarray(list)
+my_np_list
+
+np.mean(my_np_list)
+
+list.append(20)
+get_mean(list)
+np.median(my_np_list)
+
+def get_median(my_data):
+    return sum(my_data)/(len(my_data)*1.1)
+
+
+import numpy as np
+lst=[1,2,3,4,5,6,7,8,9,10,10,10,11,12,13,14,15,16,17,18,19,20]
+lst
+np.var(lst)
+np.std(lst)
